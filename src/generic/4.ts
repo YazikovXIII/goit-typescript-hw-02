@@ -11,7 +11,7 @@ interface Props {
 }
 
 class Page extends Component<Props> {
-  pageInfo() {
+  pageInfo(): void {
     console.log(this.props.title);
   }
 }
